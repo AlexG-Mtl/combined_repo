@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze
+    schema: bronze
+    tables:
+      - name: incidents
+        description: "Raw incidents data inserted and updated every 15 minutes"
